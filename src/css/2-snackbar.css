@@ -1,0 +1,55 @@
+.container {
+    max-width: 360px;
+    margin: 24px 156px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .fieldset {
+    width: 360px;
+    padding: 0;
+    margin-bottom: 24px;
+  }
+
+  .label-list-item{
+        display: flex;
+        margin-bottom: 16px;
+        flex-direction: column;
+      
+  }
+
+  .input-elem{
+    height: 40px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+  }  
+
+  .btn-item{
+    border: none;
+    border-radius: 8px;
+padding: 8px 16px;
+width: 360px;
+height: 40px;
+background: #4e75ff;
+margin-top: 24px;
+font-size: 16px;
+color: #fff;
+outline: transparent;
+transition: background-color 250ms ease;
+font-family: Montserrat, sans-serif;
+  }
+
+  
+.radio {
+    display: flex;
+    width: 264px;
+    height: 32px;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+  
+  .btn-item:hover,
+  .btn-item:focus {
+    background: #6c8cff;
+  }
+  
